@@ -54,8 +54,6 @@ $.widget( "ui.rangeslider", $.ui.slider, {
         this._updateRanges();
     },
     _mouseCapture: function( event ) {
-            console.log('mouse capture');
-            
             var position, normValue, distance, closestHandle, index, allowed, offset, mouseOverHandle,
                     that = this,
                     o = this.options;
